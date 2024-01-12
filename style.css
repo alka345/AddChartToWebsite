@@ -1,0 +1,302 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: #fff;
+}
+.complete-page{
+    display: flex;
+}
+.left-buttons{
+    display: inline-block;
+    border: solid white ;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-left: 10px;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 30px;
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+}
+.left-2-col{
+    width: 300px;
+}
+.left-2-col i{
+    color:grey;
+}
+
+.butterfly{
+    padding-top: 20px;
+}
+.note{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.note .line-1{
+    font-weight: 300;
+    font-size: 20px;
+}
+.note .line-2{
+    font-weight: 700;
+    margin-top: 5px;
+}
+.note .line-3{
+    /* font-weight: 300; */
+    padding-top: 10px;
+}
+.note .line-4{
+    margin-top: 10px;
+    font-weight: 700;
+    color: blueviolet;
+
+}
+
+.search{
+    padding-top: 40px;
+    padding-left: 10px;
+}
+ .Home{
+       margin-top: 60px;
+       border: solid blueviolet;
+       border-radius: 5px;
+       padding: 5px;
+       background-color: blueviolet;
+       padding-left: 10px;
+}
+  .news{  
+       padding-top: 40px;
+    padding-left: 10px;
+}
+  .list{     padding-top: 40px;
+    padding-left: 10px;
+}
+  .user{     padding-top: 40px;
+    padding-left: 10px;
+}
+.notify{
+    padding-top: 250px;
+    padding-left: 10px;
+}
+.login{
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+
+.profile{
+    display: flex;
+    padding-top: 40px;
+    
+}
+ .hello{
+    padding-top: 10px;
+    padding-left: 10px;
+} 
+
+.profile-img img{
+    height: 60px;
+    width: 60px;
+    background: transparent;
+}
+.left-most{
+    display: flex;
+    background-color:rgb(252, 242, 242); 
+}
+.left-2-col{
+    padding-left:40px ;
+}
+.left-2-col h3{
+margin-top: 30px;
+}
+.left-2-col h1{
+margin-top: 20px;
+}
+.left-2-col p{
+margin-top: 10px;
+}
+.left-2-col .recent{
+    padding-top: 40px;
+}
+.left-2-col button{
+margin-top: 10px;
+background-color: blueviolet;
+border-color: blueviolet;
+border-radius: 5px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 25px;
+padding-right: 25px;
+color: #fff;
+}
+
+.left-2-col hr{
+    margin-top:30px;
+}
+
+.main-section{
+    background-color: #fff;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.main-section .main{
+    padding-top: 40px;
+    color: blueviolet;
+}
+.target{
+    padding-top: 60px;
+    display: flex;
+}
+.target .range{
+padding-left: 40px;
+}
+.target p{
+    padding-top: 8px;
+}
+.target hr{
+    margin-top: 8px;
+}
+.bar-Chart{
+margin-top: 60px;
+}
+.doughNut h1{
+margin-top: 60px;
+}
+.doughNut .des{
+    margin-top: 10px;
+}
+ .doughNut .left .row-1{
+    margin-top: 30px;
+    display: flex;
+} 
+.doughNut .left .row-1 p{
+    margin-left: 10px;
+}
+ .doughNut .left .row-2{
+    display: flex;
+    margin-top: 20px;
+}
+.doughNut .left .row-2 p{
+    margin-left: 10px;
+}
+
+.doughNut .left .row-3{
+    display: flex;
+    margin-top: 20px;
+}
+.doughNut .left .row-3 p{
+    margin-left: 10px;
+}
+.doughNut .left hr{
+    margin-top: 10px;
+}
+
+.doughNut .left{
+    display: inline-block;    
+    }
+    .right-section{
+        margin-top: 60px;
+        
+    }
+    .right-section-top{
+        /* margin-top: 25px; */
+        padding-left: 30px;
+        padding-right:  30px;
+        padding-top: 30px;
+        background-color: rgb(252, 242, 242);
+    }
+    .right-section-top .Emp{
+        margin-top: 30px;
+    }
+    .right-section-top .Ret{
+        margin-top: 30px;
+    }
+    .slidecontainer{
+        margin-top: 20px;
+    }
+    .Emp-per{
+        margin-top: 30px;
+        display: inline-flex;
+    }
+    .Emp-per p{
+        margin-left: 50px;
+    }
+    .Int-per{
+        margin-top: 30px;
+        display: flex;
+    }
+    .Int-per p{
+        margin-left:140px;
+    }
+    .right-section-top button{
+       
+        margin-top: 30px;
+        background-color: blueviolet;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 240px;
+        border-radius: 10px;
+        border-color: blueviolet;
+        margin-left: 30px;
+        color: #fff;
+    }
+    .view{
+        color: blueviolet;
+        font-weight: 800;
+        margin-top: 30px;
+        margin-left: 100px;
+        padding-bottom: 30px;
+    }
+
+    .slidecontainer {
+        width: 200px;
+        display: inline-flex;
+    }
+
+    .slidecontainer h3{
+        padding-left: 30px;
+    }
+     /* The slider itself */
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 8px; /* Specified height */
+    background: blue; /* Grey background */
+    border-radius: 10px;
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+  }
+  
+  
+  .slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+  }
+  
+  /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #fff; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+    border-radius: 10px;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: grey; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+   
+     
+      
+      
