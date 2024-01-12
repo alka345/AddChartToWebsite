@@ -18,7 +18,7 @@ function drawChart() {
 
   };
 
-  var chart = new google.visualization.PieChart(document.getElementById('donut_single-1'));
+  var chart = new google.visualization.PieChart(document.getElementById('donut_single'));
  
   chart.draw(data, options);
 }
