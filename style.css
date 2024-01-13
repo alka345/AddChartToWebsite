@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     
 }
 body{
     background: #fff;
+    font-family: 'Poppins', sans-serif;
 }
 .complete-page{
     display: flex;
@@ -55,10 +57,9 @@ border-bottom-left-radius: 20px;
     color: blueviolet;
 
 }
-
-.search{
-    padding-top: 40px;
-    padding-left: 10px;
+.search{ 
+    padding-top: 40px; 
+     padding-left: 10px; 
 }
  .Home{
        margin-top: 60px;
@@ -79,7 +80,7 @@ border-bottom-left-radius: 20px;
     padding-left: 10px;
 }
 .notify{
-    padding-top: 250px;
+    margin-top: 300px;
     padding-left: 10px;
 }
 .login{
@@ -108,10 +109,16 @@ border-bottom-left-radius: 20px;
     background-color:rgb(252, 242, 242); 
 }
 .left-2-col{
-    padding-left:40px ;
+    padding-left:30px ;
 }
 .left-2-col h3{
-margin-top: 30px;
+margin-top: 20px;
+display: inline-flex;}
+
+.left-2-col .h3{
+margin-top: 20px;
+display: inline-flex;
+font-weight: 600;
 }
 .left-2-col h1{
 margin-top: 20px;
@@ -135,7 +142,7 @@ color: #fff;
 }
 
 .left-2-col hr{
-    margin-top:30px;
+    margin-top:20px;
 }
 
 .main-section{
@@ -147,6 +154,23 @@ color: #fff;
     padding-top: 40px;
     color: blueviolet;
 }
+.right{
+    display: flex;
+}
+#donut_single {
+    margin-top: 15px;
+    
+      }
+      #donut_single2 {
+        margin-top: 15px;
+        
+          }
+          #donut_single3 {
+            margin-top: 15px;
+           
+ 
+        }
+
 .target{
     padding-top: 60px;
     display: flex;
@@ -163,30 +187,39 @@ padding-left: 40px;
 .bar-Chart{
 margin-top: 60px;
 }
+.doughNut{
+    display:flex;
+    flex-direction: column;
+    
+}
+
 .doughNut h1{
-margin-top: 60px;
+    display: inline-flex;
+margin-top: 80px;
 }
 .doughNut .des{
-    margin-top: 10px;
+    margin-top: 15px;
 }
  .doughNut .left .row-1{
-    margin-top: 30px;
+    display: inline-flex;
+    margin-top: 25px;
     display: flex;
 } 
 .doughNut .left .row-1 p{
     margin-left: 10px;
 }
  .doughNut .left .row-2{
-    display: flex;
-    margin-top: 20px;
+    display: inline-flex;
+    margin-top: 15px;
 }
 .doughNut .left .row-2 p{
+    display: inline-flex;
     margin-left: 10px;
 }
 
 .doughNut .left .row-3{
-    display: flex;
-    margin-top: 20px;
+     display: inline-flex;
+    margin-top: 10px;
 }
 .doughNut .left .row-3 p{
     margin-left: 10px;
@@ -198,21 +231,34 @@ margin-top: 60px;
 .doughNut .left{
     display: inline-block;    
     }
+
+.bottom{
+    display: flex;
+}
+
+
+          
+          
+
+
     .right-section{
         margin-top: 60px;
         
     }
     .right-section-top{
-        /* margin-top: 25px; */
+    
         padding-left: 30px;
         padding-right:  30px;
         padding-top: 30px;
         background-color: rgb(252, 242, 242);
     }
     .right-section-top .Emp{
+        display: inline-flex;
         margin-top: 30px;
+    
     }
     .right-section-top .Ret{
+        display: inline-flex;
         margin-top: 30px;
     }
     .slidecontainer{
@@ -262,41 +308,140 @@ margin-top: 60px;
     }
      /* The slider itself */
 .slider {
-    -webkit-appearance: none;  /* Override default CSS styles */
+    -webkit-appearance: none;
     appearance: none;
-    width: 100%; /* Full-width */
-    height: 8px; /* Specified height */
-    background: blue; /* Grey background */
+    width: 100%; 
+    height: 8px; 
+    background: blue; 
     border-radius: 10px;
-    outline: none; /* Remove outline */
-    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
-    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    outline: none; 
+    opacity: 0.7; 
+    -webkit-transition: .2s; 
     transition: opacity .2s;
   }
   
   
   .slider:hover {
-    opacity: 1; /* Fully shown on mouse-over */
+    opacity: 1; 
   }
   
-  /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+ 
   .slider::-webkit-slider-thumb {
-    -webkit-appearance: none; /* Override default look */
+    -webkit-appearance: none; 
     appearance: none;
-    width: 25px; /* Set a specific slider handle width */
-    height: 25px; /* Slider handle height */
-    background: #fff; /* Green background */
-    cursor: pointer; /* Cursor on hover */
+    width: 25px;
+    height: 25px;
+    background: #fff; 
+    cursor: pointer; 
     border-radius: 10px;
   }
   
   .slider::-moz-range-thumb {
-    width: 25px; /* Set a specific slider handle width */
-    height: 25px; /* Slider handle height */
-    background: grey; /* Green background */
-    cursor: pointer; /* Cursor on hover */
+    width: 25px; 
+    height: 25px; 
+    background: grey; 
+    cursor: pointer; 
   }
+
    
-     
-      
-      
+ /* Mobile screen */
+ @media(max-width:477px) {
+ .complete-page{
+    display: flex;
+    flex-direction: column;
+ }
+ .left-buttons{
+   display: none;
+}
+ .left-most {
+    position: relative;
+         display: flex;
+                background-color: #fff;
+    }
+
+    .left-2-col-bottom{
+        background-color:rgb(252, 242, 242); 
+        padding: 20px;
+        border-radius: 10px;
+        position: absolute;
+
+    }
+    .left-2-col-bottom .rate{
+        display: flex;}
+        .left-2-col-bottom .rate .col-1{
+            display: flex;
+            flex-direction: column;
+        }
+        .left-2-col-bottom .rate .col-2{
+            padding-left: 25px;
+        }
+        .left-2-col-bottom button{
+        padding-left: 80px;
+        padding-right: 80px;
+            border-radius: 10px;
+        }
+        .last-col{
+            margin-top: 20px;
+            padding: 20px;
+            background-color:rgb(252, 242, 242);   
+            border-radius: 10px;
+        }
+      .target-1{
+        display: inline-flex;
+      }
+      .range-list{
+        display: inline-block;
+      }
+
+      .doughNut h1{
+        display: inline-flex;
+    }
+    .doughNut .bottom .right{
+        display: flex;
+    }
+ .right-section{
+    width: 100%;
+    /* overflow-wrap: inherit; */
+ }
+ .left{
+    width: 100%;
+ }
+
+.note{
+    display: none;
+}
+.view{
+    display: none;
+}
+.right-section button{
+    width: 100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+.right{
+   display: inline-flex;
+object-fit: cover;
+
+
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+}
+ #donut_single{
+   margin-top: 5px;
+width:auto;
+}
+
+
+#donut_single2{  margin-top: 5px;
+    padding-left: 0;}
+
+#donut_single3{  margin-top: 5px;
+    padding-left: 0;} 
+ }
+
+

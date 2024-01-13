@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mock Up</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/cac7a4c610.js" crossorigin="anonymous"></script>
+   
 </head>
 <body>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script> 
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script> 
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script> 
 <div class="complete-page">
     <div class="left-most">
@@ -30,32 +33,40 @@
     <div class="profile">
 <div class="profile-img"><img src="profile-pic.png" alt=""></div>
 <div class="hello">
+    
     <h4>Hi Mike,</h4>
     <span>welcome back</span>
 </div>
    
 
 </div>
- 
+<div class="left-2-col-bottom">
 <h3>Today</h3>
 <h1>$19,892</h1>
 <p>Account Balance</p>
-
+<div class="rate">
+    <div class="col-1">
 <h3>$4,000</h3>
-<p>Year-to-Date Contributions</p>
-
+<p>Year-to-Date</p>
+</div>
+<div class="col-2">
 <h3>$1,892</h3>
-<p>Total Interest</p>
+<p >Total Interest</p>
+</div>
+</div>
 <button>I want to</button>
+</div>
+<div class="last-col">
 <h3 class="recent">Recent Transactions</h3>
 <p>2020-08-07</p>
-<h3 >Withdrawal Transfer to Bank-XXX11</h3>
+<span class="h3">Withdrawal Transfer to Bank-XXX11</span>
 <hr>
+</div>
 <p>2020-07-21</p>
-<h3>Withdrawal Transfer to Bank-XXX11</h3>
+<span class="h3">Withdrawal Transfer to Bank-XXX11</span>
 <hr>
 <p>2020-07-16</p>
-<h3>Withdrawal Transfer to Bank-XXX11</h3>
+<span class="h3">Withdrawal Transfer to Bank-XXX11</span>
 <hr>
 </div>
 </div>
@@ -63,29 +74,37 @@
 <h3 class="main">Retirement Income</h3>
 <h2>Starting Year 2056</h2>
 <div class="target">
-    <div ><h1>$300,000</h1> <p>My Goal</p><hr></div>
+    <div class="target-1" ><h1>$300,000</h1> <p>My Goal</p><hr></div>
+    <div class="range-list">
     <div class="range"><h1>59%</h1> <p>Goal Achieved</p> <hr>
     </div>
     <div class="range"><h1>$300</h1><p>Est. Monthly Income</p><hr></div>
+</div>
 </div>
 
 <div class="bar-Chart">
     <h3>Contributions Overtime</h3>
     <div>
-        <canvas id="myChart"></canvas>
+        <canvas id="myChart" height="300px" width="600px"></canvas>
       </div>
 </div>
 <div class="doughNut">
     <h1 >How do I compare to my peers</h1>
     <p class="des">These numbers represent current goal achievement</p>
+    <div class="bottom">
 <div class="left">
-    <div class="row-1"><h3>Age:</h3> <p>Under 30</p></div><hr>
-    <div class="row-2"><h3>Salary:</h3><p>K 20 - K 30</p></div><hr>
+    <div class="row-1"><h3>Age:</h3> 
+        <p>Under 30</p></div><hr>
+    <div class="row-2"><h3>Salary:</h3>
+        <p>K 20 - K 30</p></div><hr>
     <div class="row-3"><h3>Gender:</h3><p>Male</p></div>
 </div>
  <div class="right">
     <div id="donut_single" ></div>  
+    <div id="donut_single2" ></div>  
+    <div id="donut_single3" ></div>  
      </div>
+    </div>
 </div>
 </div>
 <div class="right-section">
@@ -122,5 +141,7 @@
  
 <script src="barChart.js"></script>
 <script src="donutChart.js"></script>
+<script src="donutChart2.js"></script>
+<script src="donutChart3.js"></script>
 </body>
 </html>
